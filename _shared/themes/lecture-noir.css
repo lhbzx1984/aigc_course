@@ -1,0 +1,39 @@
+/* theme: lecture-noir — 调色台 / 剪辑室暗色
+ * Teal & Orange 电影调色：钨丝灯琥珀 + 冷调青，暖白文字，胶片颗粒。
+ */
+:root{
+  --bg:#08090B;
+  --bg-soft:#0C0E11;
+  --surface:#111419;
+  --surface-2:#171B21;
+  --border:rgba(255,255,255,.085);
+  --border-strong:rgba(255,255,255,.17);
+  --text-1:#F4F1EA;
+  --text-2:#B6B3AB;
+  --text-3:#807D76;
+  --accent:#F0A35E;
+  --accent-2:#57C9C3;
+  --accent-3:#E4572E;
+  --good:#86C88F;
+  --warn:#E8C170;
+  --bad:#E06060;
+  --grad:linear-gradient(100deg,#F0A35E 0%,#E4572E 55%,#57C9C3 100%);
+  --grad-soft:linear-gradient(140deg,rgba(240,163,94,.10),rgba(87,201,195,.07));
+  --radius:14px;
+  --radius-sm:9px;
+  --radius-lg:22px;
+  --shadow:0 2px 10px rgba(0,0,0,.45);
+  --shadow-lg:0 18px 50px rgba(0,0,0,.6);
+  --font-sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --font-serif:"Songti SC","STSong","Noto Serif SC",Georgia,serif;
+  --font-mono:"JetBrains Mono","SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  --font-display:var(--font-sans);
+  --letter-tight:-.02em;
+  --bg-texture:
+    radial-gradient(70% 55% at 18% 12%,rgba(240,163,94,.055),transparent 65%),
+    radial-gradient(60% 50% at 88% 82%,rgba(87,201,195,.05),transparent 65%);
+}
+.card{background:rgba(17,20,25,.9);border:1px solid var(--border);box-shadow:none}
+.kicker{color:var(--accent);letter-spacing:.18em}
+.h1,.h2{font-family:var(--font-display);font-weight:800;letter-spacing:var(--letter-tight)}
+.deck-header,.deck-footer{font-family:var(--font-mono);letter-spacing:.14em}
